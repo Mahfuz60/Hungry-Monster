@@ -5,7 +5,6 @@ const searchMeal=()=>{
     .then(response=>response.json())
     .then(data=>
         displayMeal(data.meals))
-    
 }
 
 const displayMeal=meals=>{
